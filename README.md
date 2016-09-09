@@ -14,8 +14,12 @@
     简单来说，FFmpeg是一个免费的多媒体框架,可以运行音频和视频多种格式的录影、转换、流功能,能让用户访问几乎所有视频格式,包括mkv、flv、mov,VLC Media Player、Google Chrome浏览器都已经支持。
     
 说明：
+
     本demo中的FFmpeg已经编译过了，可以随意拖入到项目中，添加需要的库文件和框架就可以build success。
+![image](https://github.com/xiayuanquan/FFmpegDemo/blob/master/show.png)    
     
     
 
 演示：    
+
+![image](https://github.com/xiayuanquan/FFmpegDemo/blob/master/movie.png)    
