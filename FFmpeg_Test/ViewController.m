@@ -27,12 +27,19 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    //播放网络视频
     self.video = [[XYQMovieObject alloc] initWithVideo:@"http://wvideo.spriteapp.cn/video/2016/0328/56f8ec01d9bfe_wpd.mp4"];
     
-    //    self.video = [[XYQMovieObject alloc] initWithVideo:[NSString bundlePath:@"Dalshabet.mp4"]];
-    //    self.video = [[XYQMoiveObject alloc] initWithVideo:@"/Users/king/Desktop/Stellar.mp4"];
-    //    self.video = [[XYQMoiveObject alloc] initWithVideo:@"/Users/king/Downloads/Worth it - Fifth Harmony ft.Kid Ink - May J Lee Choreography.mp4"];
-    //    self.video = [[XYQMoiveObject alloc] initWithVideo:@"/Users/king/Downloads/4K.mp4"];
+    //播放本地视频
+    //  self.video = [[XYQMovieObject alloc] initWithVideo:[NSString bundlePath:@"Dalshabet.mp4"]];
+    //  self.video = [[XYQMoiveObject alloc] initWithVideo:@"/Users/king/Desktop/Stellar.mp4"];
+    //  self.video = [[XYQMoiveObject alloc] initWithVideo:@"/Users/king/Downloads/Worth it - Fifth Harmony ft.Kid Ink - May J Lee Choreography.mp4"];
+    //  self.video = [[XYQMoiveObject alloc] initWithVideo:@"/Users/king/Downloads/4K.mp4"];
+    
+    //播放直播
+    //  self.video = [[XYQMovieObject alloc] initWithVideo:@"http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8"];
+    
+    
     //    video.outputWidth = 800;
     //    video.outputHeight = 600;
     //    self.audio = [[XYQMovieObject alloc] initWithVideo:@"/Users/king/Desktop/Stellar.mp4"];
