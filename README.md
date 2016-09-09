@@ -16,15 +16,24 @@
 说明：
 
     本demo中的FFmpeg已经编译过了，可以随意拖入到项目中，添加需要的库文件和框架就可以build success。
-![image](https://github.com/xiayuanquan/FFmpegDemo/blob/master/show.png)    
-    
-    
+![image](https://github.com/xiayuanquan/FFmpegDemo/blob/master/show.png)   
 
+
+拓展：
+
+    FFmpeg既有转码的功能，本身也具有视频媒介的特性，可以作为播放器使用。其实，ijkplayer是一个挺不错的视频直播和播放的框架。
+    它仅仅使用FFmpeg进行视频的转码，自己作为一个播放器进行播放.
+    ijkplayer框架集成可以看博客：http://www.cnblogs.com/XYQ-208910/p/5856815.html
+    
+    
 演示：
 
     在控制器中给出视频文件，点击按钮即可播放，显示帧数和时间
 
-网络视频                         网络直播           
+网络视频                                   
 
-![image](https://github.com/xiayuanquan/FFmpegDemo/blob/master/movie.png)    
+![image](https://github.com/xiayuanquan/FFmpegDemo/blob/master/movie.png)   
+
+网络直播 
+
 ![image](https://github.com/xiayuanquan/FFmpegDemo/blob/master/movie2.png) 
