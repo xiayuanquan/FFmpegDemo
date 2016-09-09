@@ -20,6 +20,8 @@
     
     
 
-演示：    
+演示：
+
+    在控制器中给出视频文件，点击按钮即可播放，显示帧数和时间
 
 ![image](https://github.com/xiayuanquan/FFmpegDemo/blob/master/movie.png)    
