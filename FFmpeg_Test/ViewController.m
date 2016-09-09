@@ -40,17 +40,18 @@
     //  self.video = [[XYQMovieObject alloc] initWithVideo:@"http://live.hkstv.hk.lxdns.com/live/hks/playlist.m3u8"];
     
     
-    //    video.outputWidth = 800;
-    //    video.outputHeight = 600;
-    //    self.audio = [[XYQMovieObject alloc] initWithVideo:@"/Users/king/Desktop/Stellar.mp4"];
-    //    NSLog(@"视频总时长>>>video duration: %f",video.duration);
-    //    NSLog(@"源尺寸>>>video size: %d x %d", video.sourceWidth, video.sourceHeight);
-    //    NSLog(@"输出尺寸>>>video size: %d x %d", video.outputWidth, video.outputHeight);
+    //设置video
+    //  video.outputWidth = 800;
+    //  video.outputHeight = 600;
+    //  self.audio = [[XYQMovieObject alloc] initWithVideo:@"/Users/king/Desktop/Stellar.mp4"];
+    //  NSLog(@"视频总时长>>>video duration: %f",video.duration);
+    //  NSLog(@"源尺寸>>>video size: %d x %d", video.sourceWidth, video.sourceHeight);
+    //  NSLog(@"输出尺寸>>>video size: %d x %d", video.outputWidth, video.outputHeight);
     //
-    //    [self.audio seekTime:0.0];
-    //    SJLog(@"%f", [self.audio duration])
-    //    AVPacket *packet = [self.audio readPacket];
-    //    SJLog(@"%ld", [self.audio decode])
+    //  [self.audio seekTime:0.0];
+    //  SJLog(@"%f", [self.audio duration])
+    //  AVPacket *packet = [self.audio readPacket];
+    //  SJLog(@"%ld", [self.audio decode])
     int tns, thh, tmm, tss;
     tns = video.duration;
     thh = tns / 3600;
