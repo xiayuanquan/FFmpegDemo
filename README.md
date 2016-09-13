@@ -2,6 +2,7 @@
 视频直播和播放转码器框架
 
 介绍：
+-----
 
     FFmpeg是一套可以用来记录、转换数字音频、视频,并能将其转化为流的开源计算机程序。采用LGPL或GPL许可证。
      
@@ -14,12 +15,14 @@
     简单来说，FFmpeg是一个免费的多媒体框架,可以运行音频和视频多种格式的录影、转换、流功能,能让用户访问几乎所有视频格式,包括mkv、flv、mov,VLC Media Player、Google Chrome浏览器都已经支持。
     
 说明：
+-----
 
     本demo中的FFmpeg已经编译过了，可以随意拖入到项目中，添加需要的库文件和框架就可以build success。
 ![image](https://github.com/xiayuanquan/FFmpegDemo/blob/master/show.png)   
 
 
 拓展：
+-----
 
     FFmpeg既有转码的功能，本身也具有视频媒介的特性，可以作为播放器使用。其实，ijkplayer是一个挺不错的视频直播和播放的框架。
     它仅仅使用FFmpeg进行视频的转码，自己作为一个播放器进行播放.
@@ -27,13 +30,16 @@
     
     
 演示：
+-----
 
     在控制器中给出视频文件，点击按钮即可播放，显示帧数和时间
 
-网络视频                                   
+网络视频 
+--------
 
 ![image](https://github.com/xiayuanquan/FFmpegDemo/blob/master/movie.png)   
 
 网络直播 
+--------
 
 ![image](https://github.com/xiayuanquan/FFmpegDemo/blob/master/movie2.png) 
