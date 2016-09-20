@@ -26,6 +26,7 @@
 
     FFmpeg既有转码的功能，本身也具有视频媒介的特性，可以作为播放器使用。其实，ijkplayer是一个挺不错的视频直播和播放的框架。
     它仅仅使用FFmpeg进行视频的转码，自己作为一个播放器进行播放.
+    
     ijkplayer框架集成可以看博客：http://www.cnblogs.com/XYQ-208910/p/5856815.html
     
     
