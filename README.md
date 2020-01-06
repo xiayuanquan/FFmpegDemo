@@ -27,6 +27,8 @@
     FFmpeg既有转码的功能，本身也具有视频媒介的特性，可以作为播放器使用。其实，ijkplayer是一个挺不错的视频直播和播放的框架。
     它仅仅使用FFmpeg进行视频的转码，自己作为一个播放器进行播放.
     
+    编译：如果本机已经安装过FFmpeg，可以自己去下载脚本进行编译，然后将编译的文件集成到项目中。需要先下载编译脚本：https://github.com/kewlbear/FFmpeg-iOS-build-script。然后进入该文件目录，运行命令行./build-ffmpeg.sh。常见编译错误请挪步参考：https://www.jianshu.com/p/5d20e2a50faa。
+    
     ijkplayer框架集成可以看博客：http://www.cnblogs.com/XYQ-208910/p/5856815.html
     
     
